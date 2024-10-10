@@ -8,5 +8,4 @@
 graph LR;
 untracked -- "git add" --> staged;
 staged --> tracked/commited;
-git commit -m --> empty list;
 ```
